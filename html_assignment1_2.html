@@ -19,10 +19,7 @@
 
 <body>
     <div id="container">
-        <!--Header containing site name and logo
-        <div id="header"></div>
-        <img src="images/logo.png" alt="logo">
-        <h1>NTU</h1>
+
         <!--Nav Bar to show menus-->
         <div class="clear" id="nav-bar">
             <ul>
@@ -56,7 +53,10 @@
             </ul>
 
         </div>
-        <img src="images/slider02.jpg" alt="ntu">
+        <div class="image">
+            <img src="images/slider02.jpg" alt="ntu">
+        </div>
+
         <!--it is used to give address of the istitute or entity that is beaing mentioned in the site-->
         <h2>Developer Address</h2>
         <div id="address">
@@ -135,12 +135,12 @@
                 text is smaller in <span style="color:blue">blue</span>size.</small></p>
         <pre><abbr title="Hypertext Markup Language">HTML</abbr> is a markup language. Markup means it is made of many tags.</pre>
         <p><a href="https://www.w3schools.com/">W3schools</a> is a good source to learn web development</p>
-        <button type="button" onclick="alert('Hello World')">Click Me</button>
+
         <picture>
-            <img scr="/images/images" alt="OBE image" style="width:40%">
+            <img src="images/images.jpg" alt="OBE image" style="width:400px; height: 600px">
         </picture>
         <canvas id="mycanvas">Your Canvas is here.</canvas>
-        <img src="/images/download.jpg" alt="Can't Load" usemap="work" style="width: 40%">
+        <img src="images/download.jpg" alt="Can't Load" usemap="work" style="width: 400px; height: 600px">
         <map name="work">
             <area shape="rect" alt="Picture">
         </map>
@@ -156,13 +156,71 @@
             <li><data value="2">Tortella</data></li>
             <li><data value="3">Fruits</data></li>
         </ul>
+        <button type="button" onclick="alert('Hello World')">Click Me</button>
         <ol>List of items not available<li>Burger</li>
             <li>Chips</li>
             <li>Friend Chicken</li>
         </ol>
+        <div class="button">
+
+            <a href="#" class="button" onclick="alert('task has been Submitted')">Submit!</a>
+        </div>
+        <br>
+        <hr>
+        <caption style="font-size:larger">Student List</caption>
+        <table style="border:1px solid black">
+            <colgroup>
+                <col span="2" style="background-color:blanchedalmond">
+                <col style="background-color: brown;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Sr.</th>
+                    <th>Name</th>
+                    <th>Roll No.</th>
+                    <th>Motto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Iqra</td>
+                    <td>20-ntu-cs-1108</td>
+                    <td>Money</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Noor</td>
+                    <td>20-ntu-cs-1109</td>
+                    <td>life</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>3</td>
+                    <td>Sara</td>
+                    <td rowspan="2">20-ntu-cs-1109</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="3">itba</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h1>D tags are here!</h1>
+        <dl>
+            <dt>Water</dt>
+            <dd>Human cannot live with out it.</dd>
+            <dt>Food</dt>
+            <dd>Human cannot live without it either(-,-)</dd>
+        </dl>
+        <!--Left sidebar-->
+        <div class="Contact-information">
+            <h2>Contact information</h2>
+        </div>
         <!--Form for personal information fetching-->
         <h2>Form tag</h2>
-        <div class="container1">
+        <div class="contact-form">
             <form action="/a.php">
                 <h2 style="color:black">Contact Form</h2>
                 <fieldset>
@@ -191,7 +249,8 @@
                 </fieldset>
             </form>
         </div>
-
+        <hr>
+        <br>
         <div class="form">
             <h3>Form tag is used to build a form to get information/data from user.</h3>
             <input type="text" name="" id="">

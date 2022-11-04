@@ -4,29 +4,39 @@
 
 }
 
-.container1 {
+.contact-information {
+    width: 45%;
+
+}
+
+.contact-form {
     width: 50%;
     text-align: left;
     border: 5px;
     float: right;
     background-color: gainsboro;
     padding: 20px;
-    margin:30px;
+    margin: 30px;
 }
-body{
-    margin:0px 0px;
+
+body {
+    margin: 0px 0px 0px 1px;
+
 }
-h1{
+
+h1 {
     font-size: larger;
-    
+
 }
-#logo{
+
+#logo {
     background-color: brown;
     padding: 0.87em 10px;
 }
+
 #nav-bar {
     width: 100%;
-    color:brown;
+    color: brown;
 }
 
 .clear {
@@ -44,10 +54,10 @@ h1{
 #nav-bar a {
     text-decoration: none;
     color: white;
-    background-color:brown;
+    background-color: brown;
     font-size: 15px;
     text-transform: uppercase;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 33px 30px;
     display: block;
     text-align: center;
@@ -55,11 +65,16 @@ h1{
 
 #nav-bar a:hover {
     color: black;
-    background-color:rgb(184, 11, 11);
+    background-color: rgb(184, 11, 11);
 }
 
 #nav-bar ul li {
     width: 20%;
+}
+
+.image img {
+    width: 1348px;
+    height: 550px;
 }
 
 #address {
@@ -74,8 +89,22 @@ h1{
     margin: -10px 0px;
 }
 
+.button {
+    background-color: blue;
+    border-radius: 3px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
 * {
     font-family: 'Times New Roman', Times, serif;
+}
+
+.form {
+    width: 60%;
 }
 
 input[type=text],
@@ -126,22 +155,26 @@ input[type=range] {
 progress {
     accent-color: hsl(39, 100%, 50%);
 }
-.footer{
-    width:100%;
-    background-color:darkgray;
-    height:300px;
+
+.footer {
+    width: 100%;
+    background-color: darkgray;
+    height: 300px;
 }
-.footer ul{
-list-style-type:none;
+
+.footer ul {
+    list-style-type: none;
 }
-.footer ul a{
+
+.footer ul a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 20px;
     font-weight: 300;
 }
-.footer-col{
-    width:25%;
-    float:left;
-    
+
+.footer-col {
+    width: 25%;
+    float: left;
+
 }
