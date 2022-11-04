@@ -71,6 +71,20 @@ h3{
     outline: 4px solid red;
     outline-offset: 15px;
   } 
+  .transition {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    transition-property: width;
+    transition-delay: 1s;
+    transition-duration: 3s;
+    margin:20px 0px;
+    transform:rotate(60deg);
+    transform-origin: 60% 30%;
+  }
+  .transition:hover{
+    width:400px;
+  }
 #logo {
     background-color: brown;
     padding: 0.87em 10px;
