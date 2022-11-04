@@ -146,7 +146,7 @@
         </map>
         <p>Life is easy.</p>
         <figure>
-            <img src="images/download (1).jpg">
+            <img src="images/download (1).jpg" style="width:400px; height:600px">
             <figcaption>beautiful view</figcaption>
         </figure>
 
@@ -167,6 +167,7 @@
         </div>
         <br>
         <hr>
+        <h2>Table tags</h2>
         <caption style="font-size:larger">Student List</caption>
         <table style="border:1px solid black">
             <colgroup>
@@ -207,7 +208,7 @@
                 </tr>
             </tfoot>
         </table>
-        <h1>D tags are here!</h1>
+        <h2>D tags are here!</h2>
         <dl>
             <dt>Water</dt>
             <dd>Human cannot live with out it.</dd>
@@ -295,7 +296,8 @@
 
                 <label for="file">Upload File</label>
                 <progress id="file" value="40" max="100">40 out of 100</progress>
-
+<br>
+<hr>
                 <select name=" " id=" ">
                     <option value="">One</option>
                     <option value="" selected>Two</option>
@@ -304,6 +306,87 @@
                 <input type="submit" name="" id="">
             </form>
         </div>
+        <br>
+        <hr>
+        <h2>Label tag</h2>
+        <label for="disk_c">Disk_C data:</label>
+        <br>
+        <hr>
+        <h2>Meter tag</h2>
+        <meter id="disk_c" value="3" min="0" max="10">3 out of 10</meter>
+        <br><hr>
+        <h2>Audio tag</h2>
+        <audio src="" controls></audio>
+        <br><hr>
+        <h2>Video tag</h2>
+        <video src="" controls>
+            <source scr="" type="">
+            <track scr="" kind="subtitles">
+        </video>
+        <!--embed, iframe, object tags-->
+        <br><hr>
+        <embed type="" src="images/download (1).jpg">
+            <h2>iframe tag</h2>
+            <br><hr>
+        <iframe scr="https://www.w3schools.com/html/default.asp"></iframe>
+      
+        <object data="images/download (1).jpg" width="300"></object>
+        <hr><br>
+        <h2>Svg circle </h2>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="30" stroke="red" stroke-width="4" fill="yellow"></circle>
+        </svg>
+        <br><hr>
+        <h2>Label and Progress tag</h2>
+    <label for="file">Upload File</label>
+    <progress id="file" value="40" max="100">40 out of 100</progress>
+    
+    <br><hr>
+    <h2>Detail tag</h2>
+    <details>
+        <summary>Life is Good</summary>
+        <p>Nothing is better than a simple life.</p>
+    </details>
+    <br><hr>
+    <h2>Template tag</h2>
+    <template>
+        <h1>Data is everything!</h1>
+    </template>
+    <br><hr>
+    <h2>Textarea tag</h2>
+    <p><label for="school">School Information</label></p>
+    <textarea id="school" name="school" rows="3"
+        cols="60">We are living a good life at NTU. A good institute.</textarea>
+        <br><hr>
+        <h2>Dialog box tag</h2>
+    <dialog open="">This is a dialog box</dialog>
+    <br><hr>
+    <object data="images/images (1).jpg" type="">
+        <parem name="" value="true"></parem>
+    </object>
+<br><hr>
+<h2>Menu list</h2>
+    <form action="a.php">
+        <label for=" Menu">Choose your Menu from the list</label>
+        <input list="Menu1" name="Menu" id="Menu">
+        <datalist id="Menu1">
+            <optgroup label="Healthy Food">
+                <option value="Milk">
+                <option value="Bread">
+            </optgroup>
+            <optgroup label="Junk Food">
+                <option value="Baryani">Baryani</option>
+                <option value="Burger">Burger</option>
+                <option value="Soda">Soda</option>
+            </optgroup>
+
+        </datalist>
+        <input type="submit" style="width:100px">
+
+    </form>
+    <br><hr>
+    <h2>Animation CSS Applied</h2>
+    <div id="animation"></div>
         <div class="footer">
             <div class="footer-col">
                 <h2 style="color:white">Faculty & Staff</h2>
